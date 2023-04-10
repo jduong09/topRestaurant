@@ -1,19 +1,24 @@
+import pexelsCajun from './pexels-cajun.jpg';
+import pexelsHoneyGlazed from './pexels-honey-glazed.jpg';
+import pexelsHot from './pexels-hot.jpg';
+import pexelsSiricha from './pexels-siricha.jpg';
+
 const objMenu = {
   siricha: {
     type: 'Siricha',
-    img: '../src/pexels-siricha.jpg'
+    img: pexelsSiricha
   },
   honey: {
     type: 'Honey Glazed',
-    img: '../src/pexels-honey-glazed.jpg'
+    img: pexelsHoneyGlazed
   },
   hot: {
     type: 'Hot',
-    img: '../src/pexels-hot.jpg'
+    img: pexelsHot
   },
   cajun: {
     type: 'Cajun',
-    img: '../src/pexels-cajun.jpg'
+    img: pexelsCajun
   }
 }
 
@@ -48,6 +53,5 @@ const createMenuPage = function() {
   divContent.innerHTML = '';
   divContent.append(divMenu);
 }
-
 
 export default createMenuPage;
