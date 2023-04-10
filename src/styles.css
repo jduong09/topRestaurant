@@ -1,0 +1,59 @@
+/* Header */
+header {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+header > nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+header > nav > ul > li {
+  margin-left: 1rem;
+}
+
+/* Content */
+#content {
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Home */
+#img-chocobo {
+  display: block;
+  width: 100%;
+  margin: 0 auto 1rem auto;
+}
+
+/* Menu */
+#ul-menu {
+
+}
+
+#ul-menu > li {
+  width: 75%;
+  margin: 0 auto 2rem auto;
+}
+
+#ul-menu h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#ul-menu img {
+  display: block;
+  width: 100%;
+}
+

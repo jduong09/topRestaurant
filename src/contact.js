@@ -4,13 +4,13 @@ const createContactPage = function() {
   const divContactInformation = document.createElement('div');
 
   const infoOwner = document.createElement('h2');
-  infoOwner.innerHTML = 'Deezy';
+  infoOwner.innerHTML = 'Name: Deezy';
   
   const infoAddress = document.createElement('span');
-  infoAddress.innerHTML = '555 Lorem Epsum Rd, Lorem Epsum, CA 55555';
+  infoAddress.innerHTML = 'Address: 555 Lorem Epsum Rd, Lorem Epsum, CA 55555';
 
   const infoPhoneNumber = document.createElement('span');
-  infoPhoneNumber.innerHTML = '555 555 5555';
+  infoPhoneNumber.innerHTML = 'Phone Number: 555 555 5555';
 
   divContactInformation.append(infoOwner, infoAddress, infoPhoneNumber);
 

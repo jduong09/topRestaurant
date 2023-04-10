@@ -26,11 +26,12 @@ const createMenuPage = function() {
   h2.innerHTML = 'Menu';
 
   const ulMenu = document.createElement('ul');
+  ulMenu.id = 'ul-menu';
 
   for (let wingFlavor in objMenu) {
     const chickenWing = objMenu[wingFlavor];
 
-    const listMenuItem = document.createElement('div');
+    const listMenuItem = document.createElement('li');
     
     const chickenWingName = document.createElement('h3');
     chickenWingName.innerHTML = chickenWing.type;

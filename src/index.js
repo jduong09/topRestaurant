@@ -1,7 +1,6 @@
 import createHomePage from "./home";
 import createMenuPage from "./menu";
 import createContactPage from "./contact";
-import styles from './styles.css';
 
 const header = function() {
   const headerlinks = ['Home', 'Menu', 'Contact'];

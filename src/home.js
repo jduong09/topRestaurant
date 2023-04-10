@@ -2,6 +2,7 @@ const createHomePage = function() {
   const divContent = document.getElementById('content');
 
   const divIntro = document.createElement('div');
+  divIntro.id = 'div-home';
 
   const imgChocobo = document.createElement('img');
   imgChocobo.id = 'img-chocobo';
