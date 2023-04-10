@@ -1,3 +1,5 @@
+import chocobo from './chocobo.jpg';
+
 const createHomePage = function() {
   const divContent = document.getElementById('content');
 
@@ -6,7 +8,7 @@ const createHomePage = function() {
 
   const imgChocobo = document.createElement('img');
   imgChocobo.id = 'img-chocobo';
-  imgChocobo.src = '../src/chocobo.jpg';
+  imgChocobo.src = chocobo;
 
   const divIntroStatement = document.createElement('div');
   divIntroStatement.innerHTML = 'Best wings in the business. Served with wingstop ranch!';
